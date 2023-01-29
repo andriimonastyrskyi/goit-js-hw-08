@@ -513,20 +513,30 @@ const refs = {
 };
 const STORAGE_KEY = "feedback-form-state";
 const dataUser = {};
-refs.form.addEventListener("input", (0, _lodashThrottleDefault.default)(setDataUser, 3000));
-refs.form.addEventListener("submit", setDataUser);
-getDataUser();
-function setDataUser(event) {
+refs.form.addEventListener("input", (0, _lodashThrottleDefault.default)(setDataInput, 500));
+refs.form.addEventListener("submit", setDataSubmit);
+function setDataInput(event) {
     const key = event.target.name;
     dataUser[key] = event.target.value;
     localStorage.setItem(STORAGE_KEY, JSON.stringify(dataUser));
 }
-function setDataUser(event) {
+function setDataSubmit(event) {
     event.preventDefault();
-    console.log(dataUser);
+    const data = localStorage.getItem(STORAGE_KEY);
+    const parseData = JSON.parse(data);
+    console.log(parseData);
     event.currentTarget.reset();
     localStorage.removeItem(STORAGE_KEY);
 }
+function getStorageData() {
+    const data = localStorage.getItem(STORAGE_KEY);
+    const parseData = JSON.parse(data);
+    if (parseData) {
+        refs.inputEmail.value = parseData.email;
+        refs.textareaMessage.value = parseData.message;
+    }
+}
+getStorageData();
 
 },{"lodash.throttle":"bGJVT","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"bGJVT":[function(require,module,exports) {
 var global = arguments[3];

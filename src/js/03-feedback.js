@@ -10,27 +10,39 @@ const STORAGE_KEY = 'feedback-form-state';
 
 const dataUser = {};
 
-refs.form.addEventListener('input', throttle(setDataUser, 3000));
+refs.form.addEventListener('input', throttle(setDataInput, 500));
 
-refs.form.addEventListener('submit', setDataUser);
+refs.form.addEventListener('submit', setDataSubmit);
 
-getDataUser();
-
-function setDataUser(event) {
+function setDataInput(event) {
   const key = event.target.name;
+
   dataUser[key] = event.target.value;
 
   localStorage.setItem(STORAGE_KEY, JSON.stringify(dataUser));
 }
 
-function setDataUser(event) {
+function setDataSubmit(event) {
   event.preventDefault();
+  const data = localStorage.getItem(STORAGE_KEY);
+  const parseData = JSON.parse(data);
 
-  console.log(dataUser);
+  console.log(parseData);
+
   event.currentTarget.reset();
 
   localStorage.removeItem(STORAGE_KEY);
 }
 
+function getStorageData() {
+  const data = localStorage.getItem(STORAGE_KEY);
+  const parseData = JSON.parse(data);
 
-function
+  if (parseData) {
+    refs.inputEmail.value = parseData.email;
+
+    refs.textareaMessage.value = parseData.message;
+  }
+}
+
+getStorageData();
