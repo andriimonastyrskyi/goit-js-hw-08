@@ -1,5 +1,5 @@
 4808
-48E:\Full Stack\goit-js-hw-08\node_modules\@parcel133193755740428481 1
+48E:\Full Stack\goit-js-hw-08\node_modules\@parcel133193963965226736 1
 112E:\Full Stack\goit-js-hw-08\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\side-effects-false133191476537280172 1
 61E:\Full Stack\goit-js-hw-08\node_modules\reusify\package.json133191476493084859 0
 67E:\Full Stack\goit-js-hw-08\node_modules\react-refresh\package.json133191476524060195 0
@@ -49,7 +49,7 @@
 76E:\Full Stack\goit-js-hw-08\node_modules\caniuse-lite\data\regions\alt-an.js133191476526219607 0
 69E:\Full Stack\goit-js-hw-08\node_modules\@parcel\utils\src\urlJoin.js133191476535638162 0
 66E:\Full Stack\goit-js-hw-08\node_modules\@parcel\utils\src\path.js133191476532058979 0
-58E:\Full Stack\goit-js-hw-08\node_modules\@msgpackr-extract133193755740438490 1
+58E:\Full Stack\goit-js-hw-08\node_modules\@msgpackr-extract133193963965226736 1
 72E:\Full Stack\goit-js-hw-08\node_modules\fast-glob\out\providers\filters133191476530141511 1
 40E:\Full Stack\goit-js-hw-08\src\partials133193702128179060 1
 49E:\Full Stack\goit-js-hw-08\src\sass\_common.scss133193702128199077 0
@@ -90,17 +90,17 @@
 60E:\Full Stack\goit-js-hw-08\node_modules\reusify\.travis.yml133191476502672100 0
 59E:\Full Stack\goit-js-hw-08\node_modules\tslib\package.json133191476523164036 0
 68E:\Full Stack\goit-js-hw-08\node_modules\@parcel\transformer-postcss133191476524327099 1
-32E:\Full Stack\goit-js-hw-08\dist133193766493971652 1
+32E:\Full Stack\goit-js-hw-08\dist133194015357763650 1
 87E:\Full Stack\goit-js-hw-08\node_modules\caniuse-lite\data\features\css-supports-api.js133191476540640288 0
 50E:\Full Stack\goit-js-hw-08\node_modules\is-number133191476506979997 1
 86E:\Full Stack\goit-js-hw-08\node_modules\@parcel\package-manager\test\fixtures\has-foo133191476531003787 1
 60E:\Full Stack\goit-js-hw-08\node_modules\css-tree\lib\syntax133191476535898407 1
 75E:\Full Stack\goit-js-hw-08\node_modules\cosmiconfig\dist\ExplorerBase.d.ts133191476529513779 0
 88E:\Full Stack\goit-js-hw-08\node_modules\caniuse-lite\data\features\css3-cursors-grab.js133191476541150319 0
-40E:\Full Stack\goit-js-hw-08\node_modules133193755740428481 1
+40E:\Full Stack\goit-js-hw-08\node_modules133193963965226736 1
 65E:\Full Stack\goit-js-hw-08\node_modules\to-regex-range\README.md133191476509453187 0
 72E:\Full Stack\goit-js-hw-08\node_modules\caniuse-lite\data\regions\SL.js133191476550605591 0
-45E:\Full Stack\goit-js-hw-08\package-lock.json133193755740890798 0
+45E:\Full Stack\goit-js-hw-08\package-lock.json133193963965647114 0
 65E:\Full Stack\goit-js-hw-08\node_modules\terser\tools\terser.d.ts133191476535352909 0
 72E:\Full Stack\goit-js-hw-08\node_modules\caniuse-lite\data\regions\MX.js133191476549654774 0
 40E:\Full Stack\goit-js-hw-08\package.json133193755740900802 0
@@ -214,7 +214,7 @@
 46E:\Full Stack\goit-js-hw-08\src\css\common.css133193702128098991 0
 46E:\Full Stack\goit-js-hw-08\src\js\02-video.js133193767236233053 0
 92E:\Full Stack\goit-js-hw-08\node_modules\caniuse-lite\data\features\constraint-validation.js133191476537860692 0
-49E:\Full Stack\goit-js-hw-08\src\js\03-feedback.js133193702128179060 0
+49E:\Full Stack\goit-js-hw-08\src\js\03-feedback.js133194019162748973 0
 84E:\Full Stack\goit-js-hw-08\node_modules\@parcel\transformer-js\src\JSTransformer.js133191476521850011 0
 57E:\Full Stack\goit-js-hw-08\node_modules\css-tree\LICENSE133191476493204966 0
 72E:\Full Stack\goit-js-hw-08\node_modules\fast-glob\out\readers\sync.d.ts133191476532253808 0
@@ -226,7 +226,7 @@
 50E:\Full Stack\goit-js-hw-08\src\css\01-gallery.css133193702128088979 0
 69E:\Full Stack\goit-js-hw-08\node_modules\svgo\plugins\minifyStyles.js133191476529384067 0
 79E:\Full Stack\goit-js-hw-08\node_modules\@parcel\core\lib\public\Environment.js133191476535372933 0
-59E:\Full Stack\goit-js-hw-08\node_modules\.package-lock.json133193755741121013 0
+59E:\Full Stack\goit-js-hw-08\node_modules\.package-lock.json133193963965847303 0
 64E:\Full Stack\goit-js-hw-08\node_modules\simplelightbox\.babelrc133191476497048169 0
 67E:\Full Stack\goit-js-hw-08\node_modules\@parcel\hash\index.js.flow133191476497098210 0
 80E:\Full Stack\goit-js-hw-08\node_modules\terser\node_modules\commander\Readme.md133191476517897609 0
@@ -521,7 +521,7 @@
 66E:\Full Stack\goit-js-hw-08\node_modules\@parcel\hash\package.json133191476515821712 0
 59E:\Full Stack\goit-js-hw-08\node_modules\dotenv\lib\main.js133191476523665342 0
 61E:\Full Stack\goit-js-hw-08\node_modules\postcss-value-parser133191476523575245 1
-55E:\Full Stack\goit-js-hw-08\dist\01-gallery.53390864.js133193710071586179 0
+55E:\Full Stack\goit-js-hw-08\dist\01-gallery.53390864.js133193967808807651 0
 85E:\Full Stack\goit-js-hw-08\node_modules\lmdb\node_modules\node-addon-api\except.gypi133191476507308265 0
 54E:\Full Stack\goit-js-hw-08\node_modules\mdn-data\l10n133191476523755417 1
 44E:\Full Stack\goit-js-hw-08\node_modules\nan133191476530943749 1
@@ -905,7 +905,7 @@
 71E:\Full Stack\goit-js-hw-08\node_modules\yaml\browser\dist\parse-cst.js133191476527098197 0
 64E:\Full Stack\goit-js-hw-08\node_modules\terser\lib\transform.js133191476534973870 0
 70E:\Full Stack\goit-js-hw-08\node_modules\@parcel\markdown-ansi\LICENSE133191476494606227 0
-46E:\Full Stack\goit-js-hw-08\dist\02-video.html133193710071676248 0
+46E:\Full Stack\goit-js-hw-08\dist\02-video.html133193967808737589 0
 72E:\Full Stack\goit-js-hw-08\node_modules\fast-glob\out\providers\sync.js133191476528417887 0
 61E:\Full Stack\goit-js-hw-08\node_modules\tslib\tslib.es6.html133191476493064836 0
 73E:\Full Stack\goit-js-hw-08\node_modules\@parcel\transformer-html\LICENSE133191476493994475 0
@@ -3165,7 +3165,7 @@
 72E:\Full Stack\goit-js-hw-08\node_modules\caniuse-lite\data\regions\BS.js133191476536389125 0
 72E:\Full Stack\goit-js-hw-08\node_modules\caniuse-lite\data\regions\BT.js133191476536409147 0
 72E:\Full Stack\goit-js-hw-08\node_modules\caniuse-lite\data\regions\BW.js133191476536619361 0
-59E:\Full Stack\goit-js-hw-08\dist\01-gallery.53390864.js.map133193710071606188 0
+59E:\Full Stack\goit-js-hw-08\dist\01-gallery.53390864.js.map133193967808857695 0
 72E:\Full Stack\goit-js-hw-08\node_modules\caniuse-lite\data\regions\BZ.js133191476536669409 0
 72E:\Full Stack\goit-js-hw-08\node_modules\caniuse-lite\data\regions\CA.js133191476536689425 0
 72E:\Full Stack\goit-js-hw-08\node_modules\caniuse-lite\data\regions\CF.js133191476537079996 0
@@ -3386,9 +3386,9 @@
 83E:\Full Stack\goit-js-hw-08\node_modules\caniuse-lite\data\features\cryptography.js133191476538079064 0
 85E:\Full Stack\goit-js-hw-08\node_modules\@parcel\reporter-dev-server\src\HMRServer.js133191476518183461 0
 77E:\Full Stack\goit-js-hw-08\node_modules\@vimeo\player\dist\player.min.js.map133193710518572565 0
-60E:\Full Stack\goit-js-hw-08\dist\01-gallery.7d68834f.css.map133193710071345947 0
+60E:\Full Stack\goit-js-hw-08\dist\01-gallery.7d68834f.css.map133193967808917750 0
 87E:\Full Stack\goit-js-hw-08\node_modules\caniuse-lite\data\features\css-mixblendmode.js133191476539604227 0
-43E:\Full Stack\goit-js-hw-08\dist\index.html133193710071676248 0
+43E:\Full Stack\goit-js-hw-08\dist\index.html133193967808777624 0
 80E:\Full Stack\goit-js-hw-08\node_modules\caniuse-lite\data\features\clipboard.js133191476537440320 0
 89E:\Full Stack\goit-js-hw-08\node_modules\caniuse-lite\data\features\css-featurequeries.js133191476538923612 0
 78E:\Full Stack\goit-js-hw-08\node_modules\caniuse-lite\data\features\colr-v1.js133191476537580485 0
@@ -3990,7 +3990,7 @@
 55E:\Full Stack\goit-js-hw-08\node_modules\@parcel\logger133191476517745266 1
 62E:\Full Stack\goit-js-hw-08\node_modules\@parcel\markdown-ansi133191476517720016 1
 62E:\Full Stack\goit-js-hw-08\node_modules\@parcel\namer-default133191476510073234 1
-61E:\Full Stack\goit-js-hw-08\dist\03-feedback.ba2d0753.css.map133193710071345947 0
+61E:\Full Stack\goit-js-hw-08\dist\03-feedback.ba2d0753.css.map133193967808917750 0
 62E:\Full Stack\goit-js-hw-08\node_modules\@parcel\optimizer-css133191476510073234 1
 67E:\Full Stack\goit-js-hw-08\node_modules\@parcel\optimizer-htmlnano133191476521533710 1
 64E:\Full Stack\goit-js-hw-08\node_modules\@parcel\optimizer-image133191476537610518 1
@@ -4365,7 +4365,7 @@
 66E:\Full Stack\goit-js-hw-08\node_modules\@parcel\namer-default\src133191476505143173 1
 84E:\Full Stack\goit-js-hw-08\node_modules\@jridgewell\set-array\dist\set-array.umd.js133191476501817490 0
 66E:\Full Stack\goit-js-hw-08\node_modules\@parcel\markdown-ansi\src133191476505123157 1
-62E:\Full Stack\goit-js-hw-08\dist\goit-js-hw-08.59712999.js.map133193710071486081 0
+62E:\Full Stack\goit-js-hw-08\dist\goit-js-hw-08.59712999.js.map133193967808417098 0
 84E:\Full Stack\goit-js-hw-08\node_modules\@parcel\markdown-ansi\test\markdown-ansi.js133191476515701610 0
 83E:\Full Stack\goit-js-hw-08\node_modules\@parcel\markdown-ansi\lib\markdown-ansi.js133191476501787468 0
 59E:\Full Stack\goit-js-hw-08\node_modules\@parcel\logger\lib133191476497088199 1
@@ -4534,7 +4534,7 @@
 87E:\Full Stack\goit-js-hw-08\node_modules\@parcel\core\src\requests\ValidationRequest.js133191476539223886 0
 88E:\Full Stack\goit-js-hw-08\node_modules\@parcel\core\src\requests\WriteBundleRequest.js133191476539273926 0
 73E:\Full Stack\goit-js-hw-08\node_modules\@parcel\core\src\public\Asset.js133191476527088188 0
-49E:\Full Stack\goit-js-hw-08\dist\03-feedback.html133193710071666240 0
+49E:\Full Stack\goit-js-hw-08\dist\03-feedback.html133193967808737589 0
 74E:\Full Stack\goit-js-hw-08\node_modules\@parcel\core\src\public\Bundle.js133191476529965975 0
 79E:\Full Stack\goit-js-hw-08\node_modules\@parcel\core\src\public\BundleGraph.js133191476530933727 0
 79E:\Full Stack\goit-js-hw-08\node_modules\@parcel\core\src\public\BundleGroup.js133191476531658576 0
@@ -4793,16 +4793,16 @@
 54E:\Full Stack\goit-js-hw-08\node_modules\.bin\svgo.ps1133191476551886581 0
 52E:\Full Stack\goit-js-hw-08\node_modules\.bin\terser133191476551886581 0
 56E:\Full Stack\goit-js-hw-08\node_modules\.bin\terser.cmd133191476551886581 0
-56E:\Full Stack\goit-js-hw-08\dist\01-gallery.101ee4ef.css133193710071335941 0
-60E:\Full Stack\goit-js-hw-08\dist\01-gallery.101ee4ef.css.map133193710071335941 0
-56E:\Full Stack\goit-js-hw-08\dist\01-gallery.7d68834f.css133193710071335941 0
-48E:\Full Stack\goit-js-hw-08\dist\01-gallery.html133193710071365972 0
-53E:\Full Stack\goit-js-hw-08\dist\02-video.a74b541c.js133193766493951632 0
-57E:\Full Stack\goit-js-hw-08\dist\02-video.a74b541c.js.map133193766493961639 0
-56E:\Full Stack\goit-js-hw-08\dist\03-feedback.5440b4f4.js133193710071586179 0
-60E:\Full Stack\goit-js-hw-08\dist\03-feedback.5440b4f4.js.map133193710071606188 0
-57E:\Full Stack\goit-js-hw-08\dist\03-feedback.ba2d0753.css133193710071335941 0
-58E:\Full Stack\goit-js-hw-08\dist\goit-js-hw-08.59712999.js133193710071476075 0
+56E:\Full Stack\goit-js-hw-08\dist\01-gallery.101ee4ef.css133193967808917750 0
+60E:\Full Stack\goit-js-hw-08\dist\01-gallery.101ee4ef.css.map133193967808917750 0
+56E:\Full Stack\goit-js-hw-08\dist\01-gallery.7d68834f.css133193967808917750 0
+48E:\Full Stack\goit-js-hw-08\dist\01-gallery.html133193967808837678 0
+53E:\Full Stack\goit-js-hw-08\dist\02-video.a74b541c.js133193967808807651 0
+57E:\Full Stack\goit-js-hw-08\dist\02-video.a74b541c.js.map133193967808847685 0
+56E:\Full Stack\goit-js-hw-08\dist\03-feedback.5440b4f4.js133194015357753646 0
+60E:\Full Stack\goit-js-hw-08\dist\03-feedback.5440b4f4.js.map133194015357763650 0
+57E:\Full Stack\goit-js-hw-08\dist\03-feedback.ba2d0753.css133193967808917750 0
+58E:\Full Stack\goit-js-hw-08\dist\goit-js-hw-08.59712999.js133193967808397085 0
 51E:\Full Stack\goit-js-hw-08\assets\how-it-works.png133193702127726534 0
 60E:\Full Stack\goit-js-hw-08\assets\actions-config-step-1.png133193702127528027 0
 45E:\Full Stack\goit-js-hw-08\assets\status.png133193702128058945 0

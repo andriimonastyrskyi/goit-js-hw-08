@@ -1,50 +1,36 @@
 import throttle from 'lodash.throttle';
 
-const formEl = {
+const refs = {
   form: document.querySelector('.feedback-form'),
   inputEmail: document.querySelector('input'),
   textareaMessage: document.querySelector('textarea'),
 };
 
-const FILL_FORM = 'feedback-form-state';
+const STORAGE_KEY = 'feedback-form-state';
+
 const dataUser = {};
 
-formEl.form.addEventListener('input', throttle(setDataUser, 3000));
+refs.form.addEventListener('input', throttle(setDataUser, 3000));
 
-formEl.form.addEventListener('submit', submitForm);
+refs.form.addEventListener('submit', setDataUser);
 
-const save = (key, value) => {
-  try {
-    const serializedState = JSON.stringify(value);
-    localStorage.setItem(key, serializedState);
-  } catch (error) {
-    console.error('Set state error: ', error.message);
-  }
-};
+getDataUser();
 
-// const save = (key, value) => {
-//   try {
-//     const serializedState = JSON.stringify(value);
-//     localStorage.setItem(key, serializedState);
-//     return true; // Додано рядок, щоб повернути true, якщо дані успішно збережено
-//   } catch (error) {
-//     console.error('Set state error: ', error.message);
-//     return false; // Додано рядок, щоб повернути false, якщо виникла помилка
-//   }
-// };
+function setDataUser(event) {
+  const key = event.target.name;
+  dataUser[key] = event.target.value;
 
-const load = key => {
-  try {
-    const serializedState = localStorage.getItem(key);
-    return serializedState === null ? undefined : JSON.parse(serializedState);
-  } catch (error) {
-    console.error('Get state error: ', error.message);
-  }
-};
-
-function setDataUser() {
-  dataUser.email = formEl.inputEmail.value;
-  dataUser.message = formEl.textareaMessage.value;
-
-  save(FILL_FORM, dataUser);
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(dataUser));
 }
+
+function setDataUser(event) {
+  event.preventDefault();
+
+  console.log(dataUser);
+  event.currentTarget.reset();
+
+  localStorage.removeItem(STORAGE_KEY);
+}
+
+
+function
