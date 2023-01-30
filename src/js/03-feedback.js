@@ -27,8 +27,6 @@ function setDataSubmit(event) {
   const data = localStorage.getItem(STORAGE_KEY);
   const parseData = JSON.parse(data);
 
-  console.log(parseData);
-
   event.currentTarget.reset();
 
   localStorage.removeItem(STORAGE_KEY);
@@ -39,9 +37,12 @@ function getStorageData() {
   const parseData = JSON.parse(data);
 
   if (parseData) {
-    refs.inputEmail.value = parseData.email;
-
-    refs.textareaMessage.value = parseData.message;
+    parseData.email
+      ? (refs.inputEmail.value = parseData.email)
+      : (refs.inputEmail.value = '');
+    parseData.message
+      ? (refs.textareaMessage.value = parseData.message)
+      : (refs.textareaMessage.value = '');
   }
 }
 

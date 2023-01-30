@@ -510,9 +510,7 @@ var _simplelightboxDefault = parcelHelpers.interopDefault(_simplelightbox);
 var _simpleLightboxMinCss = require("simplelightbox/dist/simple-lightbox.min.css");
 var _galleryItems = require("./gallery-items");
 // Change code below this line
-console.log((0, _galleryItems.galleryItems));
 const galleryRefs = document.querySelector(".gallery");
-console.log(galleryRefs);
 function addGalleryItems(galleryItems) {
     return galleryItems.map(({ preview , original , description  })=>`<a class="gallery__item" href="${original}">
                 <img class="gallery__image" 
