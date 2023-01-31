@@ -522,8 +522,7 @@ function setDataInput(event) {
 }
 function setDataSubmit(event) {
     event.preventDefault();
-    const data = localStorage.getItem(STORAGE_KEY);
-    const parseData = JSON.parse(data);
+    console.log(dataUser);
     event.currentTarget.reset();
     localStorage.removeItem(STORAGE_KEY);
 }
